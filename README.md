@@ -8,7 +8,6 @@
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?style=flat-square)
 ![Chrome](https://img.shields.io/badge/platform-Chrome-google.svg?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)
 
 Transform your browsing experience with **Dark Mode Everytime V1**. This extension intelligently inverts bright colors to protect your eyes, reducing strain during late-night browsing sessions while keeping images and videos natural.
 
