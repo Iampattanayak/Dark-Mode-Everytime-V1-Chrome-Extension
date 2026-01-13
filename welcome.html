@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Dark Mode Everytime V1</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 40px;
+            background: #1e1e1e;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 1s ease-out;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #fff;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            color: #b0b0b0;
+        }
+
+        .step {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #252525;
+            border-radius: 8px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .step-icon {
+            font-size: 1.5rem;
+            background: #333;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(118, 75, 162, 0.4);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to Dark Mode Everytime V1</h1>
+        <p>You've successfully installed the extension. Here is how to get the most out of it:</p>
+
+        <div class="step">
+            <div class="step-icon">📌</div>
+            <div>
+                <strong>Pin the Extension</strong>
+                <br>Click the puzzle piece icon in your toolbar and pin <strong>Dark Mode Everytime V1</strong> to
+                access
+                settings quickly.
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-icon">🖱️</div>
+            <div>
+                <strong>Right-Click Control</strong>
+                <br>Right-click on any page to quickly <strong>Exclude</strong> it or toggle the dark theme.
+            </div>
+        </div>
+
+        <a href="popup.html" target="_blank" class="btn">Configure Settings</a>
+    </div>
+</body>
+
+</html>
