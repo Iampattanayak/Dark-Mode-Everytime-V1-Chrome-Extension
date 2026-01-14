@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last Updated:** [Date]
+**Last Updated:** 14/05/25
 
 This Privacy Policy describes how the **Dark Mode Everywhere** browser extension handles your data. We are committed to protecting your privacy and ensuring transparency.
 
